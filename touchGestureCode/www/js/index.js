@@ -28,11 +28,11 @@ $(document).on("pagecreate","#pageOne",function(){
 	$(".footer").text("Footer Text").css("text-align", "center");
 	});
 	
-	$("navi_page_one").on("swipe", function(){
+	$("#navi_page_one").on("swipe", function(){
 	$.mobile.navigate("#pageTwo");
 	});
 		
-	$("navi_page_two").on("swipe",function(){
+	$("#navi_page_two").on("swipe",function(){
 	$.mobile.navigation("#pageOne");
 	});
 
