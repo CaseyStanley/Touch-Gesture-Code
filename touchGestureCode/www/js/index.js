@@ -33,7 +33,7 @@ $(document).on("pagecreate","#pageOne",function(){
 	});
 		
 	$("#navi_page_two").on("swipe",function(){
-	$.mobile.navigation("#pageOne");
+	$.mobile.navigate("#pageOne");
 	});
 
 
