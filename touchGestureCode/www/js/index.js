@@ -11,16 +11,16 @@ $(document).on("pagecreate","#pageone",function(){
     	$(this).css('color', 'red');
  	}); 
 
+	$('#pageone').on("swipeleft",function(){
+    	 alert("page swiped");
+  	});
+	
 	$('#swipetext').on("swipeleft",function(){
     	$(this).css('color', 'green');
   	});
-	
+
 	$('#swipetext').on("swiperight",function(){
 	$(this).css('color', 'blue');
-	});
-	
-	$('#swipetext').on("swiperight",function(){
-	$(this).css('color', 'red');
 	});
 	
 	$(".footer").on("tap",function(){
