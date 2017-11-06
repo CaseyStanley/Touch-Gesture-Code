@@ -21,7 +21,7 @@ $(document).on("pagecreate","#pageone",function(){
 	
 	$(".footer").on("tap",function(){
 	$("#tapholdtext").show();
-	$(".footer).text("Footer Text").css("text-align", "center");
+	$(".footer").text("Footer Text").css("text-align", "center");
 	});
 	
 	$("navi_page_one").on("swipe", function(){
