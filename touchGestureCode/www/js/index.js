@@ -19,6 +19,10 @@ $(document).on("pagecreate","#pageone",function(){
 	$(this).css('color', 'blue');
 	});
 	
+	$('#swipetext').on("swiperight",function(){
+	$(this).css('color', 'red');
+	});
+	
 	$(".footer").on("tap",function(){
 	$("#tapholdtext").show();
 	$(".footer").text("Footer Text").css("text-align", "center");
